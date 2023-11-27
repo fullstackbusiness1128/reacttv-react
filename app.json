@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "FlicknPlay",
+    "description": "Disney+ UI Clone with Expo",
+    "scheme": "disneyplusclone",
+    "slug": "disneyplusclone",
+    "privacy": "public",
+    "version": "0.0.1",
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
+    "githubUrl": "https://github.com/calebnance/expo-disneyplus",
+    "orientation": "portrait",
+    "primaryColor": "#070525",
+    "icon": "src/assets/icon.png",
+    "splash": {
+      "backgroundColor": "#070525",
+      "image": "src/assets/flicknplay.png",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "versionCode": 1,
+      "package": "com.yinsong.disneyplusclone"
+    },
+    "ios": {
+      "buildNumber": "0.0.1",
+      "supportsTablet": true
+    }
+  }
+}
